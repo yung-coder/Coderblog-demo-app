@@ -44,7 +44,7 @@ const Contact = () => {
       <h1>Contact us</h1>
       <form onSubmit={handelSumbit}>
         <div classNameName={styles.mb3}>
-          <label htmlfor="name" className={styles.formlable}>
+          <label htmlFor="name" className={styles.formlable}>
             Enter your name
           </label>
           <input
@@ -58,7 +58,7 @@ const Contact = () => {
           />
         </div>
         <div classNameName={styles.mb3}>
-          <label htmlfor="email" className={styles.formlable}>
+          <label htmlFor="email" className={styles.formlable}>
             Email address
           </label>
           <input
@@ -75,7 +75,7 @@ const Contact = () => {
           </div>
         </div>
         <div classNameName={styles.mb3}>
-          <label htmlfor="phone" className={styles.formlable}>
+          <label htmlFor="phone" className={styles.formlable}>
             Phone
           </label>
           <input
