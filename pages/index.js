@@ -21,7 +21,7 @@ export default function Home() {
           <span className='myspan'>W</span>
           elcome to CoderHub
         </h1>
-        <Image  src="/intro.jpg" width={237} height={150}  className={styles.myimg} />
+        <Image  src="/intro.jpg" width={237} height={150}  className={styles.myimg} alt="intro"/>
         <p className={styles.description}>
           Hunting for bugs right here are they 
         </p>

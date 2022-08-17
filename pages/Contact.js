@@ -40,16 +40,16 @@ const Contact = () => {
     }
   };
   return (
-    <div className={styles.contanier}>
+    <div classNameName={styles.contanier}>
       <h1>Contact us</h1>
       <form onSubmit={handelSumbit}>
-        <div className={styles.mb3}>
-          <label for="name" class={styles.formlable}>
+        <div classNameName={styles.mb3}>
+          <label htmlfor="name" className={styles.formlable}>
             Enter your name
           </label>
           <input
             type="text"
-            class={styles.input}
+            className={styles.input}
             id="name"
             aria-describedby="emailHelp"
             name="name"
@@ -57,40 +57,40 @@ const Contact = () => {
             onChange={handelchange}
           />
         </div>
-        <div className={styles.mb3}>
-          <label for="email" class={styles.formlable}>
+        <div classNameName={styles.mb3}>
+          <label htmlfor="email" className={styles.formlable}>
             Email address
           </label>
           <input
             type="email"
-            class={styles.input}
+            className={styles.input}
             id="email"
             name="email"
             aria-describedby="emailHelp"
             value={email}
             onChange={handelchange}
           />
-          <div id="emailHelp" class="form-text">
+          <div id="emailHelp" className="form-text">
             We'll never share your email with anyone else.
           </div>
         </div>
-        <div className={styles.mb3}>
-          <label for="phone" class={styles.formlable}>
+        <div classNameName={styles.mb3}>
+          <label for="phone" className={styles.formlable}>
             Phone
           </label>
           <input
             type="phone"
-            class={styles.input}
+            className={styles.input}
             id="phone"
             name="phone"
             value={phone}
             onChange={handelchange}
           />
         </div>
-        <div className={styles.formlable}>
-          <div class="form-floating">
+        <div classNameName={styles.formlable}>
+          <div className="form-floating">
             <textarea
-              class={styles.input}
+              className={styles.input}
               placeholder="Write your concern"
               id="desc"
               value={desc}
@@ -99,7 +99,7 @@ const Contact = () => {
             ></textarea>
           </div>
         </div>
-        <button type="submit" class="btn btn-primary">
+        <button type="submit" className="btn btn-primary">
           Submit
         </button>
       </form>
