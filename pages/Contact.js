@@ -75,7 +75,7 @@ const Contact = () => {
           </div>
         </div>
         <div classNameName={styles.mb3}>
-          <label for="phone" className={styles.formlable}>
+          <label htmlfor="phone" className={styles.formlable}>
             Phone
           </label>
           <input
